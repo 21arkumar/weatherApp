@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="weather-info">
+            <h2>Current Weather</h2>
+            <p>Location: Delhi<span id="location"></span></p>
+            <p>Temperature: 43<span id="temperature"></span>°C</p>
+            <p>Humidity: 12<span id="humidity"></span>%</p>
+            <p>Wind Speed: 3<span id="wind-speed"></span> km/h</p>
+            <input type="text" id="location-input" placeholder="Enter city or zip code" aria-label="Location">
+            <button onclick="searchWeather()">Search</button>
+        </div>
+    </main>
+</body>
+</html>
